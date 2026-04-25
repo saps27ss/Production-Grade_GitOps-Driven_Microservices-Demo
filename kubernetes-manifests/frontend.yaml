@@ -127,7 +127,7 @@ metadata:
   labels:
     app: frontend
 spec:
-  type: LoadBalancer
+  type: nodeport
   selector:
     app: frontend
   ports:
